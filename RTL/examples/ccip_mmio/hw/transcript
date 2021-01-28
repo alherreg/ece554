@@ -1,0 +1,220 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# OpenFile C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/minilab1.mpf
+# Loading project minilab1
+# Compile of fifo.sv failed with 4 errors.
+# Compile of fifo.sv failed with 3 errors.
+# Compile of fifo_tb.sv was successful.
+# Compile of fifo.sv failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of fifo.sv failed with 4 errors.
+# Compile of fifo.sv was successful.
+vsim -gui work.fifo_tb
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\Users\Alejandro\Documents\intel-training-modules\RTL\examples\ccip_mmio\hw\minilab1.mpf 
+# Start time: 00:50:57 on Jan 28,2021
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.fifo
+run -all
+# Error! Reset was not conducted properly. Expected: 0, Got:                     X
+# Error, incorrect value recorded. Expected:                     1, Got:                     0
+# Error, incorrect value recorded. Expected:                    -8, Got:                     0
+# Error, incorrect value recorded. Expected:                     3, Got:                     0
+# Error, incorrect value recorded. Expected:                 16457, Got:                     0
+# Error, incorrect value recorded. Expected:              89320567, Got:                     0
+# Error, incorrect value recorded. Expected:        58947128924718, Got:                     0
+# Error, incorrect value recorded. Expected:               -123567, Got:                     0
+# Error, incorrect value recorded. Expected:                    55, Got:                     0
+# Error. Failed retention (enable lock) test. Expected:                    55, Got:                     0
+# Errors:          10
+# ARRRR!  Ye codes be blast! Aye, there be errors. Get debugging!
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93
+# Compile of fifo.sv was successful.
+restart
+# Loading work.fifo
+run -all
+# Error! Reset was not conducted properly. Expected: 0, Got:                     X
+# Error, incorrect value recorded. Expected:                     1, Got:                     0
+# Error, incorrect value recorded. Expected:                    -8, Got:                     0
+# Error, incorrect value recorded. Expected:                     3, Got:                     0
+# Error, incorrect value recorded. Expected:                 16457, Got:                     0
+# Error, incorrect value recorded. Expected:              89320567, Got:                     0
+# Error, incorrect value recorded. Expected:        58947128924718, Got:                     0
+# Error, incorrect value recorded. Expected:               -123567, Got:                     0
+# Error, incorrect value recorded. Expected:                    55, Got:                     0
+# Error. Failed retention (enable lock) test. Expected:                    55, Got:                     0
+# Errors:          10
+# ARRRR!  Ye codes be blast! Aye, there be errors. Get debugging!
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93
+restart
+# Compile of fifo.sv was successful.
+restart
+# Loading work.fifo
+run -all
+# Error! Reset was not conducted properly. Expected: 0, Got:                     X
+# Error, incorrect value recorded. Expected:                     1, Got:                     0
+# Error, incorrect value recorded. Expected:                    -8, Got:                     0
+# Error, incorrect value recorded. Expected:                     3, Got:                     0
+# Error, incorrect value recorded. Expected:                 16457, Got:                     0
+# Error, incorrect value recorded. Expected:              89320567, Got:                     0
+# Error, incorrect value recorded. Expected:        58947128924718, Got:                     0
+# Error, incorrect value recorded. Expected:               -123567, Got:                     0
+# Error, incorrect value recorded. Expected:                    55, Got:                     0
+# Error. Failed retention (enable lock) test. Expected:                    55, Got:                     0
+# Errors:          10
+# ARRRR!  Ye codes be blast! Aye, there be errors. Get debugging!
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93
+add wave -position insertpoint  \
+sim:/fifo_tb/DUT/clk \
+sim:/fifo_tb/DUT/rst_n \
+sim:/fifo_tb/DUT/en \
+sim:/fifo_tb/DUT/d \
+sim:/fifo_tb/DUT/q \
+sim:/fifo_tb/DUT/rd \
+sim:/fifo_tb/DUT/buffer \
+sim:/fifo_tb/DUT/i
+# Compile of fifo_tb.sv was successful.
+# Compile of fifo.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.fifo_tb
+# Loading work.fifo
+run -all
+# Error! Reset was not conducted properly. Expected: 0, Got:                     x
+# Error, incorrect value recorded. Expected:                     1, Got:                     0
+# Error, incorrect value recorded. Expected:                    -8, Got:                     0
+# Error, incorrect value recorded. Expected:                     3, Got:                     0
+# Error, incorrect value recorded. Expected:                 16457, Got:                     0
+# Error, incorrect value recorded. Expected:              89320567, Got:                     0
+# Error, incorrect value recorded. Expected:        58947128924718, Got:                     0
+# Error, incorrect value recorded. Expected:               -123567, Got:                     0
+# Error, incorrect value recorded. Expected:                    55, Got:                     0
+# Error. Failed retention (enable lock) test. Expected:                    55, Got:                     0
+# Errors:          10
+# ARRRR!  Ye codes be blast! Aye, there be errors. Get debugging!
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93
+restart
+run -all
+# Error! Reset was not conducted properly. Expected: 0, Got:                     x
+# Error, incorrect value recorded. Expected:                     1, Got:                     0
+# Error, incorrect value recorded. Expected:                    -8, Got:                     0
+# Error, incorrect value recorded. Expected:                     3, Got:                     0
+# Error, incorrect value recorded. Expected:                 16457, Got:                     0
+# Error, incorrect value recorded. Expected:              89320567, Got:                     0
+# Error, incorrect value recorded. Expected:        58947128924718, Got:                     0
+# Error, incorrect value recorded. Expected:               -123567, Got:                     0
+# Error, incorrect value recorded. Expected:                    55, Got:                     0
+# Error. Failed retention (enable lock) test. Expected:                    55, Got:                     0
+# Errors:          10
+# ARRRR!  Ye codes be blast! Aye, there be errors. Get debugging!
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93
+# Compile of fifo.sv was successful.
+restart
+# Loading work.fifo
+run -all
+# Error! Reset was not conducted properly. Expected: 0, Got:                     x
+# Error, incorrect value recorded. Expected:                     1, Got:                    -8
+# Error, incorrect value recorded. Expected:                    -8, Got:                     3
+# Error, incorrect value recorded. Expected:                     3, Got:                 16457
+# Error, incorrect value recorded. Expected:                 16457, Got:              89320567
+# Error, incorrect value recorded. Expected:              89320567, Got:        58947128924718
+# Error, incorrect value recorded. Expected:        58947128924718, Got:               -123567
+# Error, incorrect value recorded. Expected:               -123567, Got:                    55
+# Error, incorrect value recorded. Expected:                    55, Got:                     x
+# Error. Failed retention (enable lock) test. Expected:                    55, Got:                     x
+# Errors:          10
+# ARRRR!  Ye codes be blast! Aye, there be errors. Get debugging!
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93
+restart
+run -all
+# Error! Reset was not conducted properly. Expected: 0, Got:                     x
+# Error, incorrect value recorded. Expected:                     1, Got:                    -8
+# Error, incorrect value recorded. Expected:                    -8, Got:                     3
+# Error, incorrect value recorded. Expected:                     3, Got:                 16457
+# Error, incorrect value recorded. Expected:                 16457, Got:              89320567
+# Error, incorrect value recorded. Expected:              89320567, Got:        58947128924718
+# Error, incorrect value recorded. Expected:        58947128924718, Got:               -123567
+# Error, incorrect value recorded. Expected:               -123567, Got:                    55
+# Error, incorrect value recorded. Expected:                    55, Got:                     x
+# Error. Failed retention (enable lock) test. Expected:                    55, Got:                     x
+# Errors:          10
+# ARRRR!  Ye codes be blast! Aye, there be errors. Get debugging!
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93
+# Compile of fifo.sv was successful.
+restart
+# Loading work.fifo
+run -all
+# Error! Reset was not conducted properly. Expected: 0, Got:                     x
+# Error! Reset was not conducted properly. Expected: 0, Got:                     x
+# Error, incorrect value recorded. Expected:                     1, Got:                     3
+# Error, incorrect value recorded. Expected:                    -8, Got:                 16457
+# Error, incorrect value recorded. Expected:                     3, Got:              89320567
+# Error, incorrect value recorded. Expected:                 16457, Got:        58947128924718
+# Error, incorrect value recorded. Expected:              89320567, Got:               -123567
+# Error, incorrect value recorded. Expected:        58947128924718, Got:                    55
+# Error, incorrect value recorded. Expected:               -123567, Got:                     x
+# Error, incorrect value recorded. Expected:                    55, Got:                     x
+# Error. Failed retention (enable lock) test. Expected:                    55, Got:                     x
+# Errors:          11
+# ARRRR!  Ye codes be blast! Aye, there be errors. Get debugging!
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93
+restart
+run -all
+# Error! Reset was not conducted properly. Expected: 0, Got:                     x
+# Error! Reset was not conducted properly. Expected: 0, Got:                     x
+# Error, incorrect value recorded. Expected:                     1, Got:                     3
+# Error, incorrect value recorded. Expected:                    -8, Got:                 16457
+# Error, incorrect value recorded. Expected:                     3, Got:              89320567
+# Error, incorrect value recorded. Expected:                 16457, Got:        58947128924718
+# Error, incorrect value recorded. Expected:              89320567, Got:               -123567
+# Error, incorrect value recorded. Expected:        58947128924718, Got:                    55
+# Error, incorrect value recorded. Expected:               -123567, Got:                     x
+# Error, incorrect value recorded. Expected:                    55, Got:                     x
+# Error. Failed retention (enable lock) test. Expected:                    55, Got:                     x
+# Errors:          11
+# ARRRR!  Ye codes be blast! Aye, there be errors. Get debugging!
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93
+# Compile of fifo.sv was successful.
+restart
+# Loading work.fifo
+run -all
+# Errors:           0
+# YAHOO!!! All tests passed.
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93

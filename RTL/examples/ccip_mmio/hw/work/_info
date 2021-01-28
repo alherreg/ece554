@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Alejandro/Desktop/ECE 552/project/cache_direct/verilog
+vfifo
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1611816963
+!i10b 1
+!s100 bmJGQO8@gcJ@VHcBgeC9:2
+IIMGkih1HI=CVT]^bXa2iU0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!s105 fifo_sv_unit
+S1
+Z2 dC:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw
+w1611816953
+8C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo.sv
+FC:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo.sv
+L0 6
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1611816963.000000
+!s107 C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo.sv|
+!s101 -O0
+!i113 1
+Z4 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vfifo_tb
+R0
+!s110 1611816849
+!i10b 1
+!s100 nzCf_hD^2:Jh7PSXQ2C=:0
+ID3X3]bb@9C8R;^>Z?9:lT1
+R1
+!s105 fifo_tb_sv_unit
+S1
+R2
+w1611710348
+8C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv
+FC:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1611816849.000000
+!s107 C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv|
+!s101 -O0
+!i113 1
+R4
