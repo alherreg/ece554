@@ -56,7 +56,7 @@ module afu
 
 
    // Instantiate a fifo module
-   fifo FIFO (.clk(clk),.rst_n(~rst),.en(rx.c0.mmioWrValid),.d(rx.c0.data), .q(user_reg));  
+   fifo FIFO (.clk(clk),.rst_n(~rst),.en( (mmio_hdr.address == 16'h0020) && rx.c0.mmioWrValid ),.d(rx.c0.data), .q(user_reg));  
 
 
    // The AFU must respond with its AFU ID in response to MMIO reads of the CCI-P device feature 
