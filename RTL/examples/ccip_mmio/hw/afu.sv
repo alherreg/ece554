@@ -54,6 +54,11 @@ module afu
    output t_if_ccip_Tx tx
    );
 
+
+   // Instantiate a fifo module
+   fifo FIFO (.clk(clk),.rst_n(~rst),.en(rx.c0.mmioWrValid),.d(rx.c0.data), .q(tx.c2.data));  
+
+
    // The AFU must respond with its AFU ID in response to MMIO reads of the CCI-P device feature 
    // header (DFH).  The AFU ID is a unique ID for a given program. Here we generated one with 
    // the "uuidgen" program and stored it in the AFU's JSON file. ASE and synthesis setup scripts
