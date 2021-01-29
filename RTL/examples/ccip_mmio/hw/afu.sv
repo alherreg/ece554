@@ -56,7 +56,7 @@ module afu
 
 
    // Instantiate a fifo module
-   fifo FIFO (.clk(clk),.rst_n(~rst),.en(rx.c0.mmioWrValid),.d(rx.c0.data), .q(tx.c2.data));  
+   fifo FIFO (.clk(clk),.rst_n(~rst),.en(rx.c0.mmioWrValid),.d(rx.c0.data), .q(user_reg));  
 
 
    // The AFU must respond with its AFU ID in response to MMIO reads of the CCI-P device feature 
@@ -76,6 +76,7 @@ module afu
    t_ccip_c0_ReqMmioHdr mmio_hdr;
    assign mmio_hdr = t_ccip_c0_ReqMmioHdr'(rx.c0.hdr);
 
+/**
    // =============================================================//   
    // MMIO write code
    // =============================================================// 		    
@@ -100,7 +101,7 @@ module afu
                end
           end
      end
-
+*/
    // ============================================================= 		    
    // MMIO read code
    // ============================================================= 		    
