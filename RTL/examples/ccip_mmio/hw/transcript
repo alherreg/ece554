@@ -218,3 +218,5 @@ run -all
 # ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv(93)
 #    Time: 166 ns  Iteration: 0  Instance: /fifo_tb
 # Break in Module fifo_tb at C:/Users/Alejandro/Documents/intel-training-modules/RTL/examples/ccip_mmio/hw/fifo_tb.sv line 93
+quit -sim
+# Compile of afu.sv failed with 4 errors.
