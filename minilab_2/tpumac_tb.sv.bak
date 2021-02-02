@@ -253,11 +253,11 @@ module tpumac_tb #(parameter BITS_AB=8, parameter BITS_C=16)();
         en =1;
 
         // Check the values againts the solutions 
-        if (Aout != 8'shC6 || Bout != 8'sh4A || Cout != 16'shF2B5) begin 
+        if (Aout != 8'hC6 || Bout != 8'h4A || Cout != 16'hF2B5) begin 
             errors++;
-            $display("Aout: Expected: %d, Got %d\n", 8'shC6, Aout);
-            $display("Bout: Expected: %d, Got %d\n", 8'sh4A, Bout);
-            $display("Cout: Expected: %d, Got %d\n", 16'shF2B5, Cout);
+            $display("Aout: Expected: %d, Got %d\n", 8'hC6, Aout);
+            $display("Bout: Expected: %d, Got %d\n", 8'h4A, Bout);
+            $display("Cout: Expected: %d, Got %d\n", 16'hF2B5, Cout);
         end
 
         // i = 9
@@ -272,11 +272,11 @@ module tpumac_tb #(parameter BITS_AB=8, parameter BITS_C=16)();
         en =1;
 
         // Check the values againts the solutions 
-        if (Aout != 8'shC6 || Bout != 8'sh4A || Cout != 16'shE1F1) begin 
+        if (Aout != 8'hC6 || Bout != 8'h4A || Cout != 16'h393C) begin 
             errors++;
-            $display("Aout: Expected: %d, Got %d\n", 8'shC6, Aout);
-            $display("Bout: Expected: %d, Got %d\n", 8'sh4A, Bout);
-            $display("Cout: Expected: %d, Got %d\n", 16'shE1F1, Cout);
+            $display("Aout: Expected: %d, Got %d\n", 8'hC6, Aout);
+            $display("Bout: Expected: %d, Got %d\n", 8'h4A, Bout);
+            $display("Cout: Expected: %d, Got %d\n", 16'h393C, Cout);
         end
 
         $display("Errors: %d", errors);
