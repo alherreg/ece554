@@ -1,0 +1,31 @@
+# vsim 
+# Start time: 19:47:32 on Feb 04,2021
+# Loading sv_std.std
+# Loading work.systolic_array_tb_sv_unit
+# Loading work.systolic_array_tb
+# Loading work.systolic_array
+# Loading work.tpumac
+# run -all
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# No errors, testcase passed
+# 
+# ** Note: $stop    : C:/Users/Alejandro/Documents/intel-training-modules/minilab_3/systolic_array_tb.sv(158)
+#    Time: 6105 ns  Iteration: 1  Instance: /systolic_array_tb
+# Break in Module systolic_array_tb at C:/Users/Alejandro/Documents/intel-training-modules/minilab_3/systolic_array_tb.sv line 158
